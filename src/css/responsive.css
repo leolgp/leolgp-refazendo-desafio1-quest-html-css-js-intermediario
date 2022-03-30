@@ -1,0 +1,62 @@
+@media(max-width: 1910px){
+    html{
+        font-size: 38%;
+    }
+    .setas{
+        top: 31%;
+    }
+}
+
+@media(max-width: 1440px){
+    html{
+        font-size: 36.8%;
+    }
+    .setas{
+        top: 38%;
+    }
+}
+
+@media(max-width: 1024px){
+    html{
+        font-size: 28%;
+    }
+    .setas{
+        top: 31%;
+    }
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 21%;
+    }
+    .setas{
+        top: 31%;
+    }
+}
+
+@media(max-width: 426px){
+    html{
+        font-size: 10%;
+    }
+    .setas{
+        top: 17%;
+    }
+}
+
+@media(max-width: 376px){
+    html{
+        font-size: 8%;
+    }
+    .setas{
+        top: 15%;
+    }
+}
+
+@media(max-width: 320px){
+    html{
+        font-size: 7%;
+    }
+    .setas{
+        top: 13%;
+    }
+}

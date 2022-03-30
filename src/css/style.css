@@ -1,0 +1,99 @@
+.quadros{
+    display: flex;
+    margin: 2%;
+}
+
+.quadro{
+    display: none;
+    position: relative;
+    width: 75vw; 
+    text-align: center;
+    margin: auto auto;
+}
+
+.mostrar{
+    display: block;
+}
+
+
+.texto{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 9%;
+    width: 20vw;
+    height: 23vw;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 6rem;
+}
+
+.texto h2{
+
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.texto p{
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 8rem 0 5rem 0;
+    max-width: 50rem;
+}
+
+
+.texto a{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.um{
+    color: #c50000;
+}
+
+.dois{
+    color: #d9dd10;
+}
+
+.tres{
+    color: #a63a17;
+}
+
+.quatro{
+    color: #10acdd;
+}
+
+
+.setas{
+    display: flex;
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    background-color: #c50000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.apagada{
+    opacity: .4;
+}
+
+.setas img{
+    width: 2vw;
+    z-index: 5;
+}
+
+.setas .esquerda{
+    position: absolute;
+    transform: rotate(180deg);
+    left: 12%;
+}
+
+.setas .direita{
+    position: absolute;
+    right: 16%;
+}
